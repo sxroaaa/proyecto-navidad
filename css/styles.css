@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(79, 202, 227);
+}
+
+#cuentaRegresiva{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5rem;
+}
+
+.navidad_Off{
+   display: flex;
+   justify-content: baseline;
+   align-items: baseline;
+   float:right;
+    margin-right: 55px;
+    background-image: url("/img/papaNoel.png");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 800px;
+}
+
+.navidad_Off.Dance {
+    background-image: url(../img/papaNoel1.gif);
+}
+.container{
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 70vh;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: inset 0px 0px 3px 2px white;
+   
+}
+
+.diasFaltantes,
+.horasFaltantes,
+.minutosFaltantes,
+.segundosFaltantes{
+    font-size: 34px;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  
+}
+
+.texto{
+        color: white;
+        font-size: 32px;
+        margin: 35px;
+
+        position: absolute;
+
+    
+}
+
+
+button{
+    display: block;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(207, 8, 8);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border-style: none;
+    padding: 1rem;
+    margin: 10px;
+
+    
+}
+.feliz-navidad{
+    color: red;
+}
